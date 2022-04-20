@@ -1,0 +1,97 @@
+ *{
+    margin: 0;
+    padding: 0;
+}
+
+#logo{
+    height: 110px;
+}
+
+body {
+    background-color: rgb(216, 216, 216);
+    font-family: sans-serif;
+}
+
+/* .destaque{
+    margin-top: 10px;
+    text-align: center;
+} */
+
+header{
+    background-color: rgb(216, 216, 216);
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: x-large;
+}
+
+header li{
+    list-style: none;
+    display: inline-block;
+}
+
+nav{
+    display: inline;
+    margin: 0 auto;
+    text-align: center;
+} 
+
+a{
+    text-decoration: none;
+}
+a:visited, a:link{
+    color: black;
+}
+
+a:hover{
+    color: red;
+}
+
+.galeria {
+    margin-top: 8px;
+    margin-left: 0px;
+    height: 500px;
+    overflow: hidden;
+    position: relative;
+}
+
+.foto {
+
+    width: 1366px;
+    height: auto;
+    position: absolute;
+    animation: animacao infinite 20s;
+    opacity: 0;
+}
+
+@keyframes animacao{
+    25% {
+        opacity: 1;
+        transform-style: flat;
+    }
+    50%{
+        opacity: 0;
+    }
+}
+
+.foto:nth-child(1){
+    animation-delay: 0s;
+}
+
+.foto:nth-child(2){
+    animation-delay: 5s;
+}
+
+.foto:nth-child(3){
+    animation-delay: 10s;
+}
+
+.foto:nth-child(4){
+    animation-delay: 15s;
+}
+
+.footer {
+    text-align: center;
+    color: #363636;
+    text-transform: none;
+    font-family: sans-serif;
+}

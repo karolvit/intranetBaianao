@@ -1,0 +1,69 @@
+body,
+ul,
+li,
+p,
+span {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    background: #87CEFA;
+    height: 135px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    color: white;
+}
+
+#logo {
+   width: 300px;
+   height: auto;
+}
+
+.menu {
+    display: flex;
+    margin-top: -5px;
+}
+
+.menu li {
+    margin-left: 7px;
+}
+
+.menu li a {
+    display: block;
+    padding: 5px;
+}
+
+.header img {
+    width: 190px;
+    margin-top: -20px;
+}
+
+.link img {
+    width: 300px;
+}
+
+.link {
+    margin-top: 60px;
+}
+
+
+.box {
+    width: 330px;
+    display: inline-block;
+}
+
